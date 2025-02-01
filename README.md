@@ -41,13 +41,8 @@ Hierarchical Bayesian models extend these benefits by allowing information shari
 ```
 📁 hierarchical-sports-analytics/
 │── 📄 README.md                   # Project documentation  
-│── 📄 requirements.txt             # Dependencies  
 │── 📁 data/                        # Raw & processed sports data  
-│── 📁 notebooks/                   # Jupyter notebooks for EDA & modeling  
-│── 📁 models/                      # PyMC v5 hierarchical Bayesian models  
-│── 📁 scripts/                     # Python scripts for preprocessing & analysis  
-│── 📁 results/                     # Model outputs & visualizations  
-│── 📁 reports/                     # Summary reports on findings  
+│── 📁 notebooks/                   # Jupyter notebooks for EDA & modeling                       # Summary reports on findings  
 │── 📄 LICENSE                      # License information  
 ```
 
