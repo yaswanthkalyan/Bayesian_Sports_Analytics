@@ -51,10 +51,8 @@ Hierarchical Bayesian models extend these benefits by allowing information shari
 ## **🔧 Installation & Setup**
 ### **1️⃣ Install Dependencies**
 Ensure you have Python **3.8+**, then install dependencies:  
-```bash
-pip install -r requirements.txt
-```
-or install PyMC v5 manually:  
+
+install PyMC v5 manually:  
 ```bash
 pip install pymc arviz numpy pandas matplotlib seaborn jupyterlab
 ```
@@ -63,17 +61,14 @@ pip install pymc arviz numpy pandas matplotlib seaborn jupyterlab
 Place raw sports data (e.g., baseball player statistics) in the `/data` directory.
 
 ### **3️⃣ Run Exploratory Analysis**
-Launch Jupyter Notebook to explore the dataset:  
+Launch Jupyter Notebook to explore the dataset and model the data:  
 ```bash
 jupyter lab
 ```
 Open `notebooks/exploratory_analysis.ipynb` to visualize key statistics.
 
 ### **4️⃣ Train Hierarchical Bayesian Model**
-Run the Bayesian inference pipeline with:  
-```bash
-python scripts/train_model.py
-```
+Run the Bayesian inference
 This will:  
 ✅ **Load and preprocess data**  
 ✅ **Fit Bayesian hierarchical models**  
@@ -127,22 +122,5 @@ az.plot_forest(trace, var_names=["team_strength", "player_skill"], combined=True
 
 ---
 
-## **📜 Citation**
-If you use this work in research, please cite:
-```
-@article{YourName2024,
-  title={Developing Hierarchical Models for Sports Analytics},
-  author={Your Name},
-  journal={Sports Analytics Journal},
-  year={2024}
-}
-```
-
----
-
-## **📩 Contact**
-For questions or collaborations, reach out at:
-📧 **your.email@example.com**  
-💻 **GitHub: [your-github](https://github.com/your-github)**  
 
 🚀 **Now you’re ready to leverage Bayesian Hierarchical Models for Sports Analytics!** 🚀  
